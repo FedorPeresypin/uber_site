@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap-reboot.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <script src="https://kit.fontawesome.com/8273bc6379.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -19,7 +20,7 @@
                     <li class="menu_item"><a href="#" class="menu_link">На автомобиле компании</a></li>
                     <li class="menu_item"><a href="#" class="menu_link">Требования</a></li>
                     <li class="menu_item"><a href="#" class="menu_link">Контакты</a></li>
-                    <li class="menu_item"><a href="#" class="menu_link">Оставить заявку</a></li>
+                    <li class="menu_item menu_item_none_border"><a href="#" class="menu_link">Оставить заявку</a></li>
                 </ul>
             </div>
         </nav>
@@ -30,7 +31,7 @@
                         <a href="#" class="subheader_logo"><img src="img/logo_uber.png" alt="logo"></a>
                         <div class="subheader_official">Официальный партнер Uber в Москве</div>
                     </div>
-                    <div class="col-md-2 offset-md-2">
+                    <div class="col-md-3 offset-md-1 col-xl-2 offset-xl-2">
                         <div class="subheader_call">Звоните нам ежедневно</div>
                         <a href="tel:84957970988" class="subheader_phone">8 495 797 09 88</a>
                     </div>
@@ -69,23 +70,28 @@
             <div class="label">преимущества</div>
             <div class="title">8 причин начать работать с нами</div>
             <div class="row">
-                <div class="advantages_wrapper col-md-6">
-                    <div class="advantages_item">
-                            <img class="advantages_img" src="icons/advantages/card_icon.png" alt="card" >
+                <div class="col-md-6">
+                    <div class="advantages_wrapper">
+                        <div class="advantages_item">
+                                <img class="advantages_img" src="icons/advantages/card_icon.png" alt="card" >
+                        </div>
+                        
+                        <div class="advantages_descr"><span>Никаких наличных, оплата происходит
+                                автоматически</span><br>
+                                Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.</div>
                     </div>
-                    
-                    <div class="advantages_descr"><span>Никаких наличных, оплата происходит
-                            автоматически</span><br>
-                            Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.</div>
-                    </div>
-                    <div class="advantages_wrapper col-md-6">
+                </div>
+                <div class="col-md-6">
+                    <div class="advantages_wrapper">
                         <div class="advantages_item">
                             <img class="advantages_img" src="icons/advantages/graph_icon.png" alt="graph" >
                         </div>
                         <div class="advantages_descr"><span>Комиссия 8% + БОНУСЫ</span><br>
                             У нас минимальная комиссия и мы выплачиваем бонусы за каждую поездку, некоторые наши конкуренты оставляют бонусы себе. Мы работаем честно и с нами водители зарабатывают больше!</div>
                     </div>
-                    <div class="advantages_wrapper col-md-6">
+                </div>
+                <div class="col-md-6">
+                    <div class="advantages_wrapper">
                         <div class="advantages_item">
                             <img class="advantages_img" src="icons/advantages/money_icon.png" alt="money" >
                         </div>
@@ -93,15 +99,19 @@
                             выплатами</span><br>
                             Мы выплачиваем заработную плату на личную банковскую карту водителя! Вам не нужно оформлять ООО, ИП, платить налоги, подавать декларацию, оплачивать бухгалтерские услуги и ведение банковского счета.</div>
                     </div>
-                    <div class="advantages_wrapper col-md-6">
+                </div>
+                <div class="col-md-6">
+                    <div class="advantages_wrapper">
                         <div class="advantages_item">
                             <img class="advantages_img" src="icons/advantages/calendar_icon.png" alt="calendar" >
                         </div>
                         <div class="advantages_descr"><span>Работа в удобное время, никаких
                             графиков</span><br>
                             Вы просто нажимаете кнопку выйти на линию для начала работы, когда решите закончить, нажимаете выйти с линии. Вы можете подрабатывать только утром, вечером, в выходные или праздничные дни!</div>
-                    </div>           
-                    <div class="advantages_wrapper col-md-6">
+                    </div> 
+                </div>
+                <div class="col-md-6">
+                    <div class="advantages_wrapper">
                         <div class="advantages_item">
                             <img class="advantages_img" src="icons/advantages/key_icon.png" alt="key" >
                         </div>
@@ -109,27 +119,34 @@
                             подключение</span><br>
                             Мы подключаем дистанционно и бесплатно, Вам нет необходимости приезжать к нам! Вы присылаете нам копии документов, мы регистрируем Вас и присылаем данные для подключения, через 1-2 дня Вы можете начинать работать!</div>
                     </div>
-                    <div class="advantages_wrapper col-md-6">
+                </div>
+                <div class="col-md-6">
+                    <div class="advantages_wrapper">
                         <div class="advantages_item">
                             <img class="advantages_img" src="icons/advantages/map_icon.png" alt="map" >
                         </div>
                         <div class="advantages_descr"><span>Всегда большое количество заказов</span><br>
                             Приложение показывает, где на данный момент больше всего заказов и где действуют повышенные тарифы. У Вас не будет простоя и холостых пробегов. Наши пассажиры всегда приятные и абсолютно неконфликтные люди, которых приятно возить.</div>
                     </div>
-                    <div class="advantages_wrapper col-md-6">
+                </div>
+                <div class="col-md-6">
+                    <div class="advantages_wrapper">
                         <div class="advantages_item">
                             <img class="advantages_img" src="icons/advantages/phone_icon.png" alt="phone" >
                         </div>
                         <div class="advantages_descr"><span>Круглосуточная поддержка</span><br>
                             В Uber действует круглосуточная поддержка водителей по электронной почте. Если что-то непонятно, Вы всегда можете задать вопрос через On-line консультацию.</div>
                     </div>
-                    <div class="advantages_wrapper col-md-6">
+                </div>
+                <div class="col-md-6">
+                    <div class="advantages_wrapper">
                         <div class="advantages_item">
                             <img class="advantages_img" src="icons/advantages/car_icon.png" alt="car" >
                         </div>
                         <div class="advantages_descr"><span>Без шашечек и наклеек</span><br>
                             Вам не нужно менять цвет, устанавливать «шашки» на автомобиль и обклеивать его наклейками.</div>
                     </div>
+                </div>     
             </div>
         </div>
     </section>
@@ -271,10 +288,18 @@
         <div class="wrapper">
             <div>
                 <div class="social">
-                    <a href="#" class="footer_social_item"></a>
-                    <a href="#" class="footer_social_item"></a>
-                    <a href="#" class="footer_social_item"></a>
-                    <a href="#" class="footer_social_item"></a>
+                    <a href="#" class="footer_social_item">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="footer_social_item">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="footer_social_item">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="footer_social_item">
+                        <i class="fab fa-instagram"></i>
+                    </a>
                 </div> 
             </div>
             <div class="links_wrapper"> 
@@ -293,8 +318,9 @@
             </div>
             <div>
                 <div class="app">
-                    <a href="#"><img src="img/apps.png" alt=""></a>
-                    <a href="#"></a>
+                    <a href="#"><img src="icons/app_store.svg" alt="App store"></a>
+                    <a href="#"><img src="icons/google_play.svg" alt="Google play"></a>
+                    <a href="#"><img src="icons/windows_store.svg" alt="Windows store"></a>
                 </div>
             </div>
         </div>
